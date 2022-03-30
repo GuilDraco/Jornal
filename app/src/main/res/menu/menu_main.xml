@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_favs"
+        android:title="@string/icon_fav"
+        android:icon="@drawable/ic_star_fav"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/menu_mock"
+        android:title="@string/mock_dado"
+        android:icon="@drawable/ic_vert"
+        app:showAsAction="collapseActionView"/>
+
+</menu>

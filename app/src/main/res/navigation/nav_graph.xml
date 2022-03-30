@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentMain">
+
+    <fragment
+        android:id="@+id/fragmentMain"
+        android:name="com.google.newspaper.views.fragments.FragmentMain"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_fragmentMain_to_fragmentNewsPaperPage"
+            app:destination="@id/fragmentNewsPaperPage" />
+        <action
+            android:id="@+id/action_fragmentMain_to_favoritosFragment"
+            app:destination="@id/fragmentFavoritos" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentNewsPaperPage"
+        android:name="com.google.newspaper.views.fragments.NewsPaperPageFragment"
+        android:label="NewsPaperPage"
+        tools:layout="@layout/fragment_news_paper_page">
+        <argument
+            android:name="idPosition"
+            app:argType="integer" />
+        <argument
+            android:name="idImage"
+            app:argType="integer" />
+        <argument
+            android:name="titlePage"
+            app:argType="string" />
+        <argument
+            android:name="newsPage"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_fragmentNewsPaperPage_to_favoritosFragment"
+            app:destination="@id/fragmentFavoritos" />
+        <action
+            android:id="@+id/action_fragmentNewsPaperPage_to_fragmentMain"
+            app:destination="@id/fragmentMain" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentFavoritos"
+        android:name="com.google.newspaper.views.fragments.FavoritosFragment"
+        android:label="fragment_favoritos"
+        tools:layout="@layout/fragment_favoritos" >
+        <action
+            android:id="@+id/action_favoritosFragment_to_fragmentNewsPaperPage"
+            app:destination="@id/fragmentNewsPaperPage" />
+    </fragment>
+</navigation>

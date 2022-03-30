@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imagem"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:elevation="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/pontos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Title in Base Image" />
+
+    <TextView
+        android:id="@+id/descricao"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/titulo"
+        app:layout_constraintEnd_toEndOf="@+id/titulo"
+        app:layout_constraintStart_toStartOf="@+id/titulo"
+        tools:text="Descrição" />
+
+    <LinearLayout
+        android:id="@+id/pontos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        android:orientation="horizontal"
+        android:paddingTop="16dp"
+
+        android:paddingBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imagem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <FrameLayout
+            android:id="@+id/ponto_1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/template_circle_dot_light"
+            android:tag="1" />
+
+        <FrameLayout
+            android:id="@+id/ponto_2"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/template_circle_dot_light"
+            android:tag="2" />
+
+        <FrameLayout
+            android:id="@+id/ponto_3"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/template_circle_dot_light"
+            android:tag="3" />
+
+        <FrameLayout
+            android:id="@+id/ponto_4"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/template_circle_dot_light"
+            android:tag="4" />
+
+        <FrameLayout
+            android:id="@+id/ponto_5"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/template_circle_dot_light"
+            android:tag="5" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

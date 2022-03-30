@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Newspaper</string>
+
+    <string name="mock_dado">Go to Page</string>
+    <string name="icon_fav">Favoritos</string>
+    <string name="divisor">Divisor</string>
+
+    <string name="title_resident_evil">Resident Evil 2, 3 e 7 chegarão com melhorias ao PS5 e Xbox Series</string>
+    <string name="info_news_resident_evil">A Capcom anunciou, nesta quarta-feira (02), que Resident Evil 2 e 3 Remake e Resident Evil 7 ganharão versões com melhorias gráficas no PlayStation 5 e Xbox Series S/X. As novas versões serão lançadas ainda em 2022, sem uma data específica, por enquanto.
+A desenvolvedora também explicou que quem possui os games para PlayStation 4 ou Xbox One receberá um upgrade digital de forma gratuita. Além disso, serão disponibilizados novos patches para PC, que serão gratuitos, assim que as versões de console forem lançadas
+Confira, abaixo, um pouco do visual que os títulos terão nos consoles da atual geração.</string>
+
+    <string name="title_iphone_se3">IPhone SE 3 é confirmado por loja parceira da Apple na Amazon</string>
+    <string name="info_news_apple">A Apple pode estar a poucos dias de revelar um novo celular. Trata-se do iPhone SE de terceira geração, que teve uma capa listada na loja da Amazon no Japão.
+Segundo o site iMore, o acessório foi adicionado pela loja Belkin como "Película protetora de vidro" e tem como data de lançamento o dia 10 de março, uma quinta-feira. O item ainda consta no catálogo do site, exibindo a mensagem "Temporariamente fora de estoque".
+Como o estabelecimento é uma parceira oficial da Maçã, é possível que ela tenha vazado acidentalmente o dia de anúncio ou disponibilidade do dispositivo.</string>
+
+    <string name="title_anonimos">Anonymous assume ataque cibernético em sites russos</string>
+    <string name="info_news_anonimos">Nesta segunda-feira (28), o grupo de ativistas Anonymous reivindicou a responsabilidade por uma série de ataques cibernéticos em vários veículos russos de comunicação, incluindo agências de notícias estatais, onde foram exibidas mensagens pedindo o fim da invasão na Ucrânia.
+A sequência de ações foi iniciada na última quinta-feira (24) contra páginas da emissora de televisão pública russa RT, antiga “Russia Today”. No sábado, sites do Kremlin de Moscovo, Duma (Câmara Baixa do Parlamento) e do Ministério de Defesa foram bloqueados, exibindo a mensagem de “negação de serviço” (DDoS) e impossibilitando o acesso.</string>
+
+
+    <string name="title_gp_tinder">Golpista do Tinder: Simon Leviev cai em golpe na internet</string>
+    <string name="info_news_gp_tinder">Como já dizia o ditado, o que vai, volta. E parece que Simon Leviev, o Golpista do Tinder, sentiu isso na pele. Segundo o portal TMZ, o criminoso caiu em um golpe na internet na última semana ao acreditar em um casal que prometeu verificar sua conta no Instagram.
+Pessoas próximas de Leviev contaram que uma mulher com conta verificada na rede social garantiu que concederia o desejado selo azul para o golpista e sua namorada, Kate Konlin. A mulher teria afirmado que a verificação do perfil poderia ser feita pelo seu namorado, um suposto ex-funcionário da Meta, proprietária do Instagram, Facebook e WhatsApp.
+O Golpista do Tinder - entenda a história real do documentário da Netflix. Para isso, no entanto, Leviev teria que pagar US$ 6.664 (aproximadamente R$ 34 mil, na conversão atual) ao casal. Ele aceitou a condição e fez a transferência do valor para a conta dos golpistas.
+O agente de Simon estranhou o processo e entrou em contato com a empresa de Mark Zuckerberg, que confirmou que as verificações não podem ser cobradas. Pouco depois, o casal sumiu com o dinheiro e "limpou" todos os seus rastros da internet.
+Após cair no golpe, porém, Leviev ganhou a desejada verificação no Instagram depois que seu agente contatou um "amigo" na empresa.</string>
+
+    <string name="title_banimento">Microsoft bane mídias estatais russas de suas plataformas</string>
+    <string name="info_news_banimento">A Microsoft publicou na segunda-feira (28) um artigo em seu blog com o título “A tecnologia digital e a guerra na Ucrânia”, expressando sua preocupação com o que chama de “a trágica, ilegal e injustificada invasão”. Com isso, a empresa de Redmond se junta a um grupo de big techs como Facebook, Twitter e YouTube, no sentido de limitar o alcance da mídia estatal russa, banindo os apps Russia Today e Sputnik das plataformas.
+A proibição segue uma orientação divulgada no Twitter pela presidente da Comissão Europeia, Ursula von der Leyen, que anunciou o banimento da "máquina de mídia do Kremlin" do bloco econômico europeu, chamando o conteúdo das citadas mídias de "desinformação tóxica e prejudicial".
+        Dessa forma, a plataforma Microsoft Start (inclusive o MSN.com) não exibirá mais conteúdos do RT e do Sputnik patrocinados pelo estado russo. Além disso, os softwares para instalação dos dois canais serão retirados da loja de aplicativos do Windows. Os dois termos continuarão no mecanismo de buscas BIng, porém as pesquisas só retornarão respostas se o usuário solicitar expressamente que quer navegar naquelas páginas.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
